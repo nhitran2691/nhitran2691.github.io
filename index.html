@@ -26,6 +26,7 @@
 
 	#font {
 		font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+		/*font-family: "Monotype Corsiva", "cursive";*/
 		font-style: normal;
 		font-weight: normal;
 	}
@@ -42,6 +43,7 @@
 	h2 {
 		text-align: center;
 		font-size: 50px;
+		letter-spacing: 0.2em;
 		line-height: 24px;
 		color: #ffc2f1;
 		padding-top: 200px;
@@ -71,6 +73,30 @@
 		padding: 10px 20px 12px 20px;
 		color: white;
 	}
+	#box {
+		text-transform: uppercase;
+		color: #ffc2f1;
+		width: 100px;
+		border: 2px solid #ffc2f1;
+		text-align: center;
+		padding:10px 10px 10px 10px;
+		margin: 10px auto 10px auto;
+	}
+	a:link {
+		text-decoration: none;
+		color:white;
+	}
+
+	a:visited {
+		color:white;
+	}
+	a:hover {
+		color: #ffc2f1;
+	}
+	.currentlink a {
+		color: #ffc2f1 !important;
+	}
+
 	</style>
 </head>
 <body>
@@ -81,15 +107,15 @@
 					<ul>
 						<li>CONTACT</li>
 						<li>PROJECTS</li>
-						<li>ABOUT</li>
-						<li>HOME</li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li class="currentlink"><a href="index.html">HOME</a></li>
 					</ul>
 				</div>
 				<h1> NHI TRAN </h1>
 
 				<h2> NHI TRAN </h2>
 				<h3> Software Engineer.  Web/Mobile Developer.</h3>
-				
+				<p id="box"> View work </p>
 			</div>
 			
 	</header>
